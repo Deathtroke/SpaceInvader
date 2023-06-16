@@ -114,7 +114,6 @@ header img {
 }
 .comment-sec {
     display: flex;
-    flex-direction: column-reverse;
 }
 
 #comment1{
