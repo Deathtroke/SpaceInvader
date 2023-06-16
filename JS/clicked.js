@@ -25,8 +25,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
         switch (clickCount) {
             case 1:
                 // Erster Klick: Text in rankDiv ändern
-                rankDiv = document.getElementById('rank');
-                rankDiv.querySelector('p').innerHTML = 'Text nach dem ersten Klick hier';
+                commentDiv = document.querySelector('.grid-item_2.comment');
+                commentDiv.querySelector('p').innerHTML = 'Text nach dem zweiten Klick hier';
                 break;
             case 2:
                 // Zweiter Klick: Text in commentDiv ändern
@@ -35,9 +35,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
                 break;
             case 3:
                 // Dritter Klick: Text in beiden Divs ändern
-                rankDiv = document.getElementById('rank');
                 commentDiv = document.querySelector('.grid-item_2.comment');
-                rankDiv.querySelector('p').innerHTML = 'Text nach dem dritten Klick hier für rank';
                 commentDiv.querySelector('p').innerHTML = 'Text nach dem dritten Klick hier für comment';
                 break;
             default:
