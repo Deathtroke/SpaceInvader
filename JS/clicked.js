@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         clickCount++;
 
         // Variable für den rankDiv und commentDiv initialisieren
-        let rankDiv;
+        let headline;
         let commentDiv;
 
         // Switch-Case basierend auf dem Klickzähler
@@ -27,6 +27,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
                 // Erster Klick: Text in rankDiv ändern
                 commentDiv = document.querySelector('.grid-item_2.comment');
                 commentDiv.querySelector('p').innerHTML = 'Text nach dem zweiten Klick hier';
+				headline = document.querySelector('.headline');
+				headline.querySelector('p').innerHTML = '<img src="./Content/Schrift_cursed_1.gif" alt="">';
                 break;
             case 2:
                 // Zweiter Klick: Text in commentDiv ändern
