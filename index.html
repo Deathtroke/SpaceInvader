@@ -27,7 +27,7 @@
             </div>
 
             <div class="grid-item" id="game_pong" onclick="window.open('Games/PO/po.html')">
-				<div class="youtube" id="pong" onclick="window.open('https://www.youtube.com/watch?v=nhtPH6SAXU0')">
+				<div class="youtube" id="pong" onclick="window.open('Games/PO/po.html')">
 					<a>
 						<img src="./Content/pong.png" class="game-image">
 					</a>
@@ -43,17 +43,24 @@
         </div>
 
         <div class="sidebar">
-            <!-- <div class="grid-item_2 comment">-->
-  <div class="comment-sec">             
-<img src="./Content/Kommentar1.png" id="comment1">
-<img src="./Content/Phase_2/Kommentar2.png" id="comment2" >
+            <div class="grid-item_2 comment">
+                <div class="kommentar">
+                    <div class="person"><img src="./Content/markantes_gesicht.jpg"> <h2>Name</h2></div>
+                    <div class = "comm">Mein Kommentar alla</p>
+                </div>
+				
+				<div class="comment-sec">             
+				<img src="./Content/Kommentar1.png" id="comment1">
+				<img src="./Content/Phase_2/Kommentar2.png" id="comment2" style="display: none;">
 
-<img src="./Content/Phase_2/Kommentar3.png" id="comment3">
-<img src="./Content/Phase_2/Kommentar4.png" id="comment4">
-<img src="./Content/Phase_3/Kommentar5.png" id="comment5">
-<img src="./Content/Phase_3/Kommentar6.png" id="comment6">
-<img src="./Content/Phase_3/Kommentar7.png" id="comment7">
-</div> 
+				<img src="./Content/Phase_2/Kommentar3.png" id="comment3"style="display: none;">
+				<img src="./Content/Phase_2/Kommentar4.png" id="comment4"style="display: none;">
+				<img src="./Content/Phase_3/Kommentar5.png" id="comment5"style="display: none;">
+				<img src="./Content/Phase_3/Kommentar6.png" id="comment6"style="display: none;">
+				<img src="./Content/Phase_3/Kommentar7.png" id="comment7"style="display: none;">
+				</div> 
+
+
 
             </div>
         </div>
@@ -61,6 +68,5 @@
         <div class="footer"></div>
     </div>
 </body>
-
-
+<script src="./JS/clicked.js"></script>
 </html>
